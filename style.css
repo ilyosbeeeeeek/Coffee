@@ -9,13 +9,13 @@
 }
 
 .canteyner {
-    /* background-color: aqua; */
+    background-color: aqua;
     width: 80%;
     height: 2000px;
     margin: 0 auto;
 }
 
-.list {
+.navbar_item_list {
     margin-left: 600px;
     display: flex;
     justify-content: end;
@@ -57,7 +57,7 @@
     display: flex;
 }
 
-.list_title {
+.navbar_title {
     width: 100%;
     height: 400px;
     background-color: #A2A2A2;
@@ -103,6 +103,7 @@
 }
 
 .section {
+    background: linear-gradient(180deg, rgba(254, 252, 247, 0.00) 0%, #FEFCF7 100%);
     color: #83888F;
     text-align: center;
     font-family: Fraunces 9pt;
@@ -180,21 +181,77 @@
     /* 162.5% */
 }
 
-.coffe-bean {
-    width: 350px;
-    height: 400px;
+.aside {
+    position: relative;
+    bottom: 850px;
+    left: 150px;
+    gap: 10px;
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+}
+.title_p{
+    text-align: center;
+}
+.aside_coffe {
+    width: 25%;
+    height: 300px;
     background-color: #0E8784;
+    /* border: 2px solid red; */
 }
 
-.coffe_bean {
+.aside_coffe_bean {
     position: relative;
-    left: 142px;
+    left: 120px;
     top: 72px;
     width: 72px;
     height: 72px;
     flex-shrink: 0;
+    gap: 40px;
 }
-.item_title{
+
+.aside_coffe_title {
     position: relative;
     top: 100px;
+}
+
+.artisan {
+    width: 80%;
+    height: 400px;
+    background-color: #213e67;
+    margin: 0 auto;
+    position: relative;
+    bottom: 600px;
+}
+
+.artisan_text {
+    color: #83888F;
+    font-family: Fraunces 9pt;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px;
+    /* 133.333% */
+}
+
+.artisan_path {
+    position: relative;
+    left: 150px;
+    width: 760px;
+    height: 1px;
+    flex-shrink: 0;
+    stroke-width: 2px;
+    stroke: #FDD6BA;
+}
+
+.artisan_img {
+    display: inline-block;
+    fill: #FEFCF7;
+    stroke-width: 2px;
+    stroke: #0E8784;
+    position: relative;
+}
+.aside{
+    
 }
